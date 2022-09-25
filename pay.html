@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+</head>
+<body>
+    <center>
+        <h1 style="color:blueviolet;">Payment Form</h1>
+    </center>
+    <h2>Contacts Details</h2>
+    <form>
+    <p>Name: <input type="text" name="name" required></p>
+    <fieldset<p>
+            <legend>Gender</legend><br>
+            Male <input type="radio" name="gender" id="male">
+            Female <input type="radio" name="gender" id="female"></p>
+    </fieldset>
+    <p>Address: <br><textarea name="address" cols="30" rows="10"></textarea></p>
+    <p>Email: <input type="email" name="email" id="email"></p>
+    <p>Picode: <input type="pincode" name="pincode" id="picode"></p>
+    <h2>Payment Information</h2>
+    <p>Card Type: <select name="card_type" id="card_type" required>
+            <option value="">----Select Card Type----</option>
+            <option value="mastercard">MasterCard</option>
+            <option value="visa">Visa</option>
+            <option value="rupay">Rupay</option>
+        </select></p>
+        <p>Card Number: <input type="number" name="card_number" id="card_number" required></p>
+        <p>Expiration Date: <input type="date" name="exp" id="exp" required></p>
+        <p>CVV: <input type="password" name="cvv" id="pass" required></p>
+        <p><input type="Submit" value="Pay Now"></p>
+    </form>
+    <hr>
+    <p align="right"><a href="index.html">Back</p>
+</body>
+</html>
